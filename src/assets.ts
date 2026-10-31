@@ -4,7 +4,10 @@ let done = 0;
 let total = 0;
 let onProgress: (fraction: number) => void = () => {};
 
+/** Beginnt eine neue Zählung: Jeder Ladevorgang läuft von vorn bis 100 %. */
 export function trackProgress(fn: (fraction: number) => void) {
+  done = 0;
+  total = 0;
   onProgress = fn;
 }
 

@@ -313,6 +313,7 @@ async function beginWorld(nextSeed: number, at: { x: number; z: number } | null)
 /** Lädt, was zu einer Welt gehört: Kacheln, Licht, Himmel. Das Bild ist dabei schwarz, oder es läuft noch gar nichts. */
 async function preparePlanet(next: Planet) {
   planet = next;
+  trackProgress((f) => { statusLine.textContent = `Loading ${next.name} … ${Math.round(f * 100)} %`; });
   for (const [id, button] of choiceButtons) button.setAttribute('aria-pressed', String(id === next.id));
   trace(`World: ${next.name}`);
   terrain.setPlanet(next);
@@ -940,7 +941,6 @@ async function start() {
     overlay.classList.add('choosing');
     firstChoice = resolve;
   });
-  trackProgress((f) => { statusLine.textContent = `Loading ${chosen.name} … ${Math.round(f * 100)} %`; });
   await preparePlanet(chosen);
 
   onProgress = (f) => { statusLine.textContent = f < 1 ? `Generating world ${seed} … ${Math.round(f * 100)} %` : 'Meshing nearby caves …'; };
