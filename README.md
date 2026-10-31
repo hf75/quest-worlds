@@ -21,6 +21,12 @@ On a real Quest 3 (Quest Browser 154) both worlds hold close to 90 frames per se
 
 ## Try it
 
+**[hf75.github.io/quest-worlds](https://hf75.github.io/quest-worlds/)**
+
+Open the link in the Quest Browser, choose a world and press **Enter VR** once it has been generated. On a PC it runs as a desktop preview: drag to look around and use WASD to walk. A world downloads up to about 90 MB the first time.
+
+## Run it yourself
+
 You need [Node.js](https://nodejs.org) 24.
 
 ```sh
@@ -43,6 +49,10 @@ Put the PC and the Quest on the same network, open `https://<IP of your PC>:5174
 ### Without a headset
 
 `http://localhost:5173/?emulate=1` emulates a Quest 3 in the browser with [IWER](https://github.com/meta-quest/immersive-web-emulation-runtime) and shows the stereo split screen.
+
+### Your own site
+
+Fork the repository and set **Settings → Pages → Source** to **GitHub Actions**. Every push to `main` then publishes it, see `.github/workflows/pages.yml`.
 
 ## Controls
 
