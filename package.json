@@ -1,0 +1,25 @@
+{
+  "name": "quest-worlds",
+  "version": "0.1.0",
+  "description": "Procedural worlds to wander through on a Meta Quest 3, in the browser with WebXR.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173 --strictPort",
+    "quest": "vite --mode quest --host --port 5174 --strictPort",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "check": "node tools/dev/check_walk.mjs --seeds 6 && node tools/dev/check_walk.mjs --seeds 6 --planet mars && node tools/dev/check_caves.mjs --seeds 2 && node tools/dev/check_caves.mjs --seeds 2 --planet mars"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "@types/webxr": "0.5.24",
+    "@vitejs/plugin-basic-ssl": "2.3.0",
+    "iwer": "2.7.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  }
+}

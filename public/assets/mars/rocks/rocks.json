@@ -1,0 +1,155 @@
+{
+  "stride": 7,
+  "shapes": [
+    {
+      "name": "splitter_0",
+      "kind": "shard",
+      "start": 0,
+      "count": 240
+    },
+    {
+      "name": "splitter_1",
+      "kind": "shard",
+      "start": 240,
+      "count": 240
+    },
+    {
+      "name": "splitter_2",
+      "kind": "shard",
+      "start": 480,
+      "count": 240
+    },
+    {
+      "name": "splitter_3",
+      "kind": "shard",
+      "start": 720,
+      "count": 240
+    },
+    {
+      "name": "splitter_4",
+      "kind": "shard",
+      "start": 960,
+      "count": 240
+    },
+    {
+      "name": "splitter_5",
+      "kind": "shard",
+      "start": 1200,
+      "count": 240
+    },
+    {
+      "name": "splitter_6",
+      "kind": "shard",
+      "start": 1440,
+      "count": 240
+    },
+    {
+      "name": "splitter_7",
+      "kind": "shard",
+      "start": 1680,
+      "count": 240
+    },
+    {
+      "name": "brocken_0",
+      "kind": "slab",
+      "start": 1920,
+      "count": 3840
+    },
+    {
+      "name": "brocken_1",
+      "kind": "slab",
+      "start": 5760,
+      "count": 3840
+    },
+    {
+      "name": "brocken_2",
+      "kind": "slab",
+      "start": 9600,
+      "count": 3840
+    },
+    {
+      "name": "brocken_3",
+      "kind": "slab",
+      "start": 13440,
+      "count": 3840
+    },
+    {
+      "name": "brocken_4",
+      "kind": "slab",
+      "start": 17280,
+      "count": 3840
+    },
+    {
+      "name": "brocken_5",
+      "kind": "slab",
+      "start": 21120,
+      "count": 3840
+    },
+    {
+      "name": "block_0",
+      "kind": "fin",
+      "start": 24960,
+      "count": 3840
+    },
+    {
+      "name": "block_1",
+      "kind": "fin",
+      "start": 28800,
+      "count": 3840
+    },
+    {
+      "name": "block_2",
+      "kind": "fin",
+      "start": 32640,
+      "count": 3840
+    },
+    {
+      "name": "block_3",
+      "kind": "fin",
+      "start": 36480,
+      "count": 3840
+    },
+    {
+      "name": "block_4",
+      "kind": "fin",
+      "start": 40320,
+      "count": 3840
+    },
+    {
+      "name": "brocken_fern_0",
+      "kind": "slabFar",
+      "start": 44160,
+      "count": 240
+    },
+    {
+      "name": "brocken_fern_1",
+      "kind": "slabFar",
+      "start": 44400,
+      "count": 240
+    },
+    {
+      "name": "brocken_fern_2",
+      "kind": "slabFar",
+      "start": 44640,
+      "count": 240
+    },
+    {
+      "name": "brocken_fern_3",
+      "kind": "slabFar",
+      "start": 44880,
+      "count": 240
+    },
+    {
+      "name": "brocken_fern_4",
+      "kind": "slabFar",
+      "start": 45120,
+      "count": 240
+    },
+    {
+      "name": "brocken_fern_5",
+      "kind": "slabFar",
+      "start": 45360,
+      "count": 240
+    }
+  ]
+}

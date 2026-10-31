@@ -1,0 +1,180 @@
+{
+ "stride": 7,
+ "shapes": [
+  {
+   "name": "splitter_0",
+   "kind": "shard",
+   "start": 0,
+   "count": 60,
+   "radius": 1.2
+  },
+  {
+   "name": "splitter_1",
+   "kind": "shard",
+   "start": 60,
+   "count": 108,
+   "radius": 1.2
+  },
+  {
+   "name": "splitter_2",
+   "kind": "shard",
+   "start": 168,
+   "count": 228,
+   "radius": 1.2
+  },
+  {
+   "name": "splitter_3",
+   "kind": "shard",
+   "start": 396,
+   "count": 84,
+   "radius": 1.2
+  },
+  {
+   "name": "splitter_4",
+   "kind": "shard",
+   "start": 480,
+   "count": 48,
+   "radius": 1.2
+  },
+  {
+   "name": "splitter_5",
+   "kind": "shard",
+   "start": 528,
+   "count": 216,
+   "radius": 1.2
+  },
+  {
+   "name": "splitter_6",
+   "kind": "shard",
+   "start": 744,
+   "count": 36,
+   "radius": 1.2
+  },
+  {
+   "name": "splitter_7",
+   "kind": "shard",
+   "start": 780,
+   "count": 108,
+   "radius": 1.2
+  },
+  {
+   "name": "platte_0",
+   "kind": "slab",
+   "start": 888,
+   "count": 1536,
+   "radius": 1.5
+  },
+  {
+   "name": "platte_1",
+   "kind": "slab",
+   "start": 2424,
+   "count": 1320,
+   "radius": 1.5
+  },
+  {
+   "name": "platte_2",
+   "kind": "slab",
+   "start": 3744,
+   "count": 1092,
+   "radius": 1.5
+  },
+  {
+   "name": "platte_3",
+   "kind": "slab",
+   "start": 4836,
+   "count": 1140,
+   "radius": 1.5
+  },
+  {
+   "name": "platte_4",
+   "kind": "slab",
+   "start": 5976,
+   "count": 1152,
+   "radius": 1.5
+  },
+  {
+   "name": "platte_5",
+   "kind": "slab",
+   "start": 7128,
+   "count": 1500,
+   "radius": 1.5
+  },
+  {
+   "name": "rippe_0",
+   "kind": "fin",
+   "start": 8628,
+   "count": 1728,
+   "radius": 1.6
+  },
+  {
+   "name": "rippe_1",
+   "kind": "fin",
+   "start": 10356,
+   "count": 1488,
+   "radius": 1.6
+  },
+  {
+   "name": "rippe_2",
+   "kind": "fin",
+   "start": 11844,
+   "count": 1776,
+   "radius": 1.6
+  },
+  {
+   "name": "rippe_3",
+   "kind": "fin",
+   "start": 13620,
+   "count": 1392,
+   "radius": 1.6
+  },
+  {
+   "name": "rippe_4",
+   "kind": "fin",
+   "start": 15012,
+   "count": 2544,
+   "radius": 1.6
+  },
+  {
+   "name": "platte_fern_0",
+   "kind": "slabFar",
+   "start": 17556,
+   "count": 156,
+   "radius": 1.5
+  },
+  {
+   "name": "platte_fern_1",
+   "kind": "slabFar",
+   "start": 17712,
+   "count": 132,
+   "radius": 1.5
+  },
+  {
+   "name": "platte_fern_2",
+   "kind": "slabFar",
+   "start": 17844,
+   "count": 132,
+   "radius": 1.5
+  },
+  {
+   "name": "platte_fern_3",
+   "kind": "slabFar",
+   "start": 17976,
+   "count": 168,
+   "radius": 1.5
+  },
+  {
+   "name": "platte_fern_4",
+   "kind": "slabFar",
+   "start": 18144,
+   "count": 204,
+   "radius": 1.5
+  },
+  {
+   "name": "platte_fern_5",
+   "kind": "slabFar",
+   "start": 18348,
+   "count": 180,
+   "radius": 1.5
+  }
+ ]
+}

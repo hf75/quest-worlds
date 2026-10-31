@@ -1,0 +1,8 @@
+node_modules/
+dist/
+/previews/
+/blender/
+*.log
+.env*
+.vite/
+.DS_Store

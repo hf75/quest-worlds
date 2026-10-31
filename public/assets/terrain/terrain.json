@@ -1,0 +1,24 @@
+{
+  "key": {
+    "azimuth": -1.5707963267948966,
+    "elevation": 0.5585053606381855
+  },
+  "meso": {
+    "size": 256.0,
+    "resolution": 4096,
+    "heightMin": -1.4898347854614258,
+    "heightMax": 1.9322566986083984,
+    "albedoResolution": 2048
+  },
+  "macro": {
+    "size": 2048.0,
+    "resolution": 2048,
+    "normalResolution": 1024,
+    "heightMin": -17.324480056762695,
+    "heightMax": 18.637672424316406
+  },
+  "detail": {
+    "size": 8.0,
+    "resolution": 2048
+  }
+}
